@@ -1,4 +1,4 @@
-package de.hotel.test.espresso
+package de.renebaeumer.test.espresso
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.espresso.Espresso
@@ -8,8 +8,8 @@ import androidx.test.espresso.action.ViewActions.typeText
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.rule.ActivityTestRule
-import de.hotel.R
-import de.hotel.ui.login.LoginActivity
+import de.renebaeumer.R
+import de.renebaeumer.ui.login.LoginActivity
 import java.lang.Thread.sleep
 
 class LoginScreenRobot {

@@ -1,11 +1,11 @@
-package de.hotel.test.steps
+package de.renebaeumer.test.steps
 
 import android.app.Activity
 import androidx.test.rule.ActivityTestRule
 import cucumber.api.Scenario
 import cucumber.api.java8.En
-import de.hotel.test.espresso.LoginScreenRobot
-import de.hotel.ui.login.LoginActivity
+import de.renebaeumer.test.espresso.LoginScreenRobot
+import de.renebaeumer.ui.login.LoginActivity
 import org.junit.Assert
 
 

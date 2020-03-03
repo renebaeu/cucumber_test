@@ -22,13 +22,13 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "de.hotel"
+        applicationId "de.renebaeumer"
         minSdkVersion 24
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
-        testApplicationId "de.hotel.test"
-        testInstrumentationRunner "de.hotel.test.runner.CucumberTestRunner"
+        testApplicationId "de.renebaeumer.test"
+        testInstrumentationRunner "de.renebaeumer.test.runner.CucumberTestRunner"
     }
     buildTypes {
         debug {

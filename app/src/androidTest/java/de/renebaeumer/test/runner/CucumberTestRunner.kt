@@ -1,4 +1,4 @@
-package de.hotel.test.runner
+package de.renebaeumer.test.runner
 
 import android.os.Bundle
 import cucumber.api.CucumberOptions
@@ -7,7 +7,7 @@ import java.io.File
 
 @CucumberOptions(
         features = ["features"],
-        glue = ["de.hotel.test"]
+        glue = ["de.renebaeumer.test"]
 )
 open class CucumberTestRunner : CucumberAndroidJUnitRunner() {
 

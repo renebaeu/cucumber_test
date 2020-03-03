@@ -1,4 +1,4 @@
-package de.hotel.cucumberTest
+package de.renebaeumer.cucumberTest
 
 import org.junit.Test
 

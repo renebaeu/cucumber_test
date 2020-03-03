@@ -1,11 +1,11 @@
-package de.hotel.ui.login
+package de.renebaeumer.ui.login
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import de.hotel.R
+import de.renebaeumer.R
 
 import kotlinx.android.synthetic.main.activity_login.*
 
